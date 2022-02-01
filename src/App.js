@@ -1,6 +1,7 @@
 import ExpenseItem from './components/ExpenseItem';
 
 function App() {
+  // membuat nilai variabel yang akan di tampilkan
   const expenses = [
     {
       id: 'e1',
