@@ -1,4 +1,4 @@
-import ExpenseDate from './Expensedate';
+import ExpenseDate from './ExpenseDate';
 import './ExpenseItem.css';
 
 //membuat fungsi prop agar kita bisa menggunakan komponen dengan data yang berbeda
@@ -9,7 +9,7 @@ function ExpenseItem(props) {
       <ExpenseDate date={props.date}></ExpenseDate>
       <div className="expense-item__description">
         <h2>{props.title}</h2>
-        <div className="expense-item__price">${props.amount}</div>
+        <div className="expense-item__price">$ {props.amount}</div>
       </div>
     </div>
   );
