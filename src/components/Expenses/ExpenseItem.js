@@ -4,7 +4,7 @@ import ExpenseDate from './ExpenseDate';
 import './ExpenseItem.css';
 
 //membuat fungsi prop agar kita bisa menggunakan komponen dengan data yang berbeda
-function ExpenseItem(props) {
+const ExpenseItem = (props) => {
   return (
     <Card className="expense-item">
       {/* import komponen props di dalam komponent  */}
@@ -15,6 +15,6 @@ function ExpenseItem(props) {
       </div>
     </Card>
   );
-}
+};
 
 export default ExpenseItem;

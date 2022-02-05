@@ -1,7 +1,7 @@
 import React from 'react';
 import Expenses from './components/Expenses/Expenses';
 
-function App() {
+const App = () => {
   // membuat nilai variabel yang akan di tampilkan
   const expenses = [
     {
@@ -36,6 +36,6 @@ function App() {
       <Expenses items={expenses}></Expenses>
     </div>
   );
-}
+};
 
 export default App;
