@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Card from '../UI/Card';
 import ExpenseDate from './ExpenseDate';
 import './ExpenseItem.css';
 
 //membuat fungsi prop agar kita bisa menggunakan komponen dengan data yang berbeda
 const ExpenseItem = (props) => {
+  useState();
+
   let title = props.title;
 
   const cliickHandler = () => {
