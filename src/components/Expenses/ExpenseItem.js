@@ -19,7 +19,7 @@ const ExpenseItem = (props) => {
         <h2>{title}</h2>
         <div className="expense-item__price">$ {props.amount}</div>
       </div>
-      //membuat fungsi klik pada button dan mengambil variabel clickHandler
+      {/* //membuat fungsi klik pada button dan mengambil variabel clickHandler */}
       <button onClick={clickHandler}>Change Title</button>
     </Card>
   );
